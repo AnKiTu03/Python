@@ -1,1 +1,120 @@
 
+*{
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing:border-box; */
+}
+body{
+  background-image: url("bg.jpg");
+   background-repeat: no-repeat;
+  background-size: 1800px 1000px;
+  height: 100vh;
+  font-family: 'Comfortaa', cursive;
+  overflow: hidden
+
+}
+
+
+.welcome h2{
+color:black
+
+}
+@keyframes typing {
+  from {
+      width: 0%
+  }
+  to {
+      width: 100%
+  }
+}
+
+@keyframes blink {
+  from, to {
+      border-color: transparent
+  }
+  50% {
+      border-color: orange;
+  }
+}
+.welcome{
+    margin:auto;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    color:black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align:center;
+    padding-right:35px
+    margin-right:35px
+    padding: 24px;
+  }
+.userinput{
+     padding-top: 3px;
+     /* width: 850px; */
+     width: 100%;
+     /* border: 5px solid gray; */
+     margin:auto;
+     /* border-collapse: collapse; */
+     font-family: Calibri;
+     font-style: normal;
+     font-weight: bold;
+     text-align:center;
+     font-family: 'Raleway', sans-serif;
+     border-collapse: collapse;
+     /* border-style:green; */
+   }
+.output{
+    padding-top: 3px;
+    /* width: 850px; */
+    width: 100%;
+    /* border: 5px solid gray; */
+    margin:auto;
+    /* border-collapse: collapse; */
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+    border-collapse: collapse;
+    /* border-style:green; */
+  }
+   .input-text{
+     /* padding-bottom: 5px; */
+     font-size: 20px;
+     border: none;
+     /* background-color:#A5D9EF; */
+   }
+   .button{
+     margin-top: 25px;
+     border-radius: 5px;
+     font-family: 'Roboto Mono', monospace;
+     padding: 12px;
+   }
+
+
+button {
+  padding: 1.3em 3em;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
